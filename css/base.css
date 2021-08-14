@@ -1,0 +1,49 @@
+:root{
+    --montserrat: 'Montserrat', sans-serif;
+    --pixelado: 'Press Start 2P', cursive;
+    --palito: 'Stick', sans-serif;
+    --pintado: 'Gloria Hallelujah', cursive;
+    --dafoe: 'Mr Dafoe', cursive;
+}
+
+body {
+    font-family: var(--montserrat)
+}
+
+.container {
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+.botao {
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+    border: 1px solid var(--branco);
+    border-radius: 5px;
+}
+
+.final{
+    background-image: url(../img/bg3.png);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
+    }
+
+    .final {
+        background-image: url(../img/bg3.png);
+        background-size: cover;
+        background-attachment: fixed;   
+    }
+}

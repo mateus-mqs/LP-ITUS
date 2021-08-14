@@ -1,0 +1,95 @@
+.diferenciais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #17795100;
+}
+
+.diferenciais__titulo {
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: var(--pixelado);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+
+.diferenciais__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.diferenciais__item {
+    max-width: 350px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: top 1.25rem left 1rem;
+    padding: 2rem 1rem 2rem 1rem;
+    margin: 1rem;
+}
+
+.diferenciais__item--cancelamento { 
+    background-image: url(../img/icone-relogio.png);
+}
+
+.diferenciais__item--dinheiro {
+    background-image: url(../img/icone-dinheiro.png);
+}
+
+.diferenciais__item--especialistas {
+    background-image: url(../img/icone-quimica.png);
+}
+
+.diferenciais__item--suporte{
+    background-image: url(../img/icone-suporte.png);
+}
+
+.diferenciais__item--fundo{
+    background-color: #FFFFFFBB;
+    border-radius: 15px;
+    box-shadow: 5px 10px #07224bBB;
+}
+
+.item__titulo {
+    color: #004AAD;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-family: var(--pintado);
+    margin-bottom: 1.5rem;
+}
+
+.item__texto {
+    line-height: normal;
+    color: black;
+    font-family: var(--montserrat);
+}
+
+@media screen and (min-width: 420px) {
+    .diferenciais__item{
+        background-position: top 1.25rem left 2.5rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .diferenciais__titulo{
+        font-size: 3rem;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .diferenciais__titulo{
+        font-size: 3rem;
+    }
+    .diferenciais {
+        background-color: #00000000;
+    }
+    .diferenciais__lista {
+        justify-content: space-around;
+    }
+}

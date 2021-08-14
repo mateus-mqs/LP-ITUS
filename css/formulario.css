@@ -1,0 +1,58 @@
+#containerForm{
+  width: 100%;
+}
+
+.form__campo{
+  all: unset;
+  display: inline;
+  width: 100%;
+  margin: 0.25rem 0;
+  padding: 0.25rem;
+  background-color: white;
+  text-align: left;
+  color: #05539b;
+  border-radius: 10px;
+}
+
+.form__campo::placeholder{
+  color: #05539b;
+}
+
+.form__botao {
+  margin-top: 1rem;
+  background-color: #05539b;
+  color: white;
+  border: 1px solid #05539b;
+  transition: 200ms;
+}
+
+.form__botao:hover {
+  color: #05539b;
+  border-color: white;
+  background-color: white;
+  transition: 200ms;
+}
+
+#text-area{
+  all: unset;
+  background-color: white;
+  color: #05539b;
+ margin-top:0.5rem;
+ border-radius: 0.7rem;
+ padding-top: 0.5rem;
+ text-align: left;
+  width: 100%;
+}
+#text-area::placeholder{
+  color: #05539b;
+}
+@media screen and (min-width: 900px){
+  .form__line{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .form__campo{
+    max-width: 300px;
+  }
+}
