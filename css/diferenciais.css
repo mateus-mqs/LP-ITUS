@@ -83,12 +83,6 @@
     }
 }
 @media screen and (min-width: 1024px) {
-    .diferenciais__titulo{
-        font-size: 3rem;
-    }
-    .diferenciais {
-        background-color: #00000000;
-    }
     .diferenciais__lista {
         justify-content: space-around;
     }

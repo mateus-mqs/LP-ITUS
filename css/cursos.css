@@ -1,4 +1,5 @@
 .cursos {
+    background-color: #0F6A6F;
     background-image: url(../img/bg2.png);
     background-size: cover;
     padding-top: 3rem;
@@ -94,7 +95,6 @@
     }
 
     .cursos__cartoes {
-        display: flex;
         flex-direction: column;
         justify-content: space-between;
     }

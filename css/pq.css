@@ -48,10 +48,6 @@
     }
 }
 @media screen and (min-width: 1024px){
-    .pq{
-        background-color: #00000000;
-    }
-
     .pq__titulo {
         font-size: 3rem;
     }

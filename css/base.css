@@ -2,8 +2,6 @@
     --montserrat: 'Montserrat', sans-serif;
     --pixelado: 'Press Start 2P', cursive;
     --palito: 'Stick', sans-serif;
-    --pintado: 'Gloria Hallelujah', cursive;
-    --dafoe: 'Mr Dafoe', cursive;
 }
 
 body {
@@ -28,6 +26,7 @@ body {
 }
 
 .final{
+    background-color: #177950;
     background-image: url(../img/bg3.png);
     background-size: cover;
     background-position-x: center;
@@ -39,11 +38,5 @@ body {
     .container {
         padding-left: calc((100% - 940px)/2);
         padding-right: calc((100% - 940px)/2);
-    }
-
-    .final {
-        background-image: url(../img/bg3.png);
-        background-size: cover;
-        background-attachment: fixed;   
     }
 }

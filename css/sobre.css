@@ -48,9 +48,6 @@
 
 @media screen and (min-width: 1024px){
     .sobre__conteudo {
-        background-color: #004aad;
-        border-radius: 20px;
-        padding: 1rem;
         width: 40%;
     }
 
