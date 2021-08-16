@@ -19,6 +19,7 @@
 }
 
 .form__botao {
+  font-family: var(--montserrat);
   margin-top: 1rem;
   background-color: #05539b;
   color: white;
