@@ -17,12 +17,15 @@
 
 .rodape__midia {
     display: block;
-
     width: 42px;
     height: 42px;
-
     margin: 2rem 1rem;
     transition: 200ms;
+}
+
+.rodape__logo{
+    width: 220px;
+    height: auto;
 }
 
 .rodape__navegacao {

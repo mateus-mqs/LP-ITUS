@@ -10,9 +10,17 @@
     position: absolute;
     
 }
-
-.cabecalho__logo {
+.cabecalho__logo{
     margin-bottom: 1rem;
+}
+.cabecalho__logo--simbolo {
+    width: 100px;
+    height: auto;
+}
+
+.cabecalho__logo--letra {
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
 
 .cabecalho__navegacao {

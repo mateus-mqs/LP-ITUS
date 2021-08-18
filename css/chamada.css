@@ -7,8 +7,8 @@
     text-align: center;
 
     background-color: #004aad;
-    padding-top: 10.25rem;
-    padding-bottom: 5.5rem;
+    padding-top: 13.25rem;
+    padding-bottom: 2.5rem;
 
     background-image: url(../img/bg1-mob.png);
     background-size: cover;
@@ -65,7 +65,8 @@
 @media screen and (min-width: 1024px){
     .chamada {
         background-size: cover;
-        padding-bottom: 3.25rem;
+        padding-top: 10.25rem;
+        padding-bottom: 1.25rem;
         background-image: url(../img/bg1.png);
         background-attachment: fixed;
         background-position-y: -150px;
